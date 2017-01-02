@@ -6,6 +6,6 @@ public class VerticleApp extends AbstractVerticle
 {
     @Override
     public void start() throws Exception {
-        vertx.createHttpServer().requestHandler(req -> req.response().end("Hello World Bhuntu!")).listen(8000);
+        vertx.createHttpServer().requestHandler(req -> req.response().end("Hello World Bhuntu 1!")).listen(8000);
     }
 }
