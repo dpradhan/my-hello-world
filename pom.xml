@@ -8,7 +8,7 @@
   <version>3.3.3-SNAPSHOT</version>
 
   <properties>
-    <docker.registry>localhost:5000</docker.registry>
+    <docker.registry>192.168.99.105:5000</docker.registry>
   </properties>
   <dependencies>
     <dependency>
