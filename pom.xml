@@ -58,6 +58,7 @@
           </execution>
         </executions>
         <configuration>
+          <dockerHost>192.168.99.105:2376</dockerHost>
           <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
           <imageName>${docker.registry}/${project.artifactId}</imageName>
           <resources> <!--Dockerfile Building resources -->
